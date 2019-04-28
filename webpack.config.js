@@ -30,8 +30,8 @@ module.exports = {
       chunkFilename: "styles.css"
     }),
     new HtmlWebpackPlugin({
-      template: 'src/index.html',
-      inject: false,
+      template: './src/index.html',
+      filename: "./index.html",
     }),
   ],
   devServer: {
